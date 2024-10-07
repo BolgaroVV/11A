@@ -1,0 +1,71 @@
+@import url(https://fonts.googleapis.com/css?family=Iceland:regular);
+@import url(https://fonts.googleapis.com/css?family=Exo:100,200,300,regular,500,600,700,800,900,100italic,200italic,300italic,italic,500italic,600italic,700italic,800italic,900italic);
+@import url(https://fonts.googleapis.com/css?family=Exo+2:100,200,300,regular,500,600,700,800,900,100italic,200italic,300italic,italic,500italic,600italic,700italic,800italic,900italic);
+@import url(https://fonts.googleapis.com/css?family=Jura:300,regular,500,600,700);
+@import url(https://fonts.googleapis.com/css?family=DotGothic16:regular);
+@import url(https://fonts.googleapis.com/css?family=Kelly+Slab:regular);
+@import url(https://fonts.googleapis.com/css?family=Rubik+Glitch:regular);
+@import url(https://fonts.googleapis.com/css?family=DM+Sans:100,200,300,regular,500,600,700,800,900,100italic,200italic,300italic,italic,500italic,600italic,700italic,800italic,900italic);
+
+
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+:root {
+    --container-width: 375px;
+    --container-padding: 20px;
+    --card-name-size: calc(var(--container-width) * (40 / 960));
+    --card-role-size: calc(var(--card-name-size) * 0.65);
+    
+    --exo-font: "Exo 2";
+    --iceland-font: Iceland;
+    --rubik-font: "Rubik Glitch";
+    --kelly-font: "Kelly Slab";
+    --gothic-font: DotGothic16;
+    --jura-font: Jura;
+
+    --main-color: rgba(0, 209, 255);
+    --second-color: rgba(0, 209, 255, 0.5);
+    --dark-color: #00242C;
+
+    --img: url("../../public/first-slide-4k.png")
+}
+
+body {
+    background-color: rgb(42, 41, 41);
+}
+
+* {
+    font-family: Jura;
+    color: var(--main-color);
+    overflow-wrap: break-word;
+}
+
+.container {
+    min-width: var(--container-width);
+    max-width: 100%;
+    position: absolute;
+    left: 50%;
+    transform: translateX(-50%);
+    background-color: #00242C;
+    padding: var(--container-padding);
+    padding-top: 0px;
+}
+
+h3 {
+    font-size: 22px;
+    padding-bottom: 15px;
+  }
+
+h4 {
+    font-size: 19px;
+    padding-bottom: 10px;
+}
+
+.paragraph-image {
+    border-radius: 10%;
+    width: 80%;
+    margin: auto;
+    box-shadow: 6px 6px 6px 0px rgba(255, 255, 255, 0.2); 
+}
