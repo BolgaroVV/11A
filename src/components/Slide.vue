@@ -18,23 +18,23 @@ let isBtnActive = ref(false)
 let isSkipActive = ref(false)
 let data = [
   {
-    img: "url(../../public/com/slide-0.webp)",
-    smallImg: "url(../../public/com/slide-0-cut.webp)",
+    img: "url(/com/slide-0.webp)",
+    smallImg: "url(/com/slide-0-cut.webp)",
     text: "2081. Мир разделен на 6 государств: СССР, Новая Австралия, Азиатская Народная Республика, Федеративная Республика Америка, Европейский Союз и Южно-Американская Империя",
   },
   {
-    img: "url(../../public/com/slide-1.jpg)",
-    smallImg: "url(../../public/com/slide-1-cut.jpg)",
+    img: "url(/com/slide-1.jpg)",
+    smallImg: "url(/com/slide-1-cut.jpg)",
     text: "Вы находитесь в центре одного из крупнейших городов мира. Перед вами довольно необычное по архитектуре здание.",
   },
   {
-    img: "url(../../public/com/slide-2.jpg)",
-    smallImg: "url(../../public/com/slide-2-cut.jpg)",
+    img: "url(/com/slide-2.jpg)",
+    smallImg: "url(/com/slide-2-cut.jpg)",
     text: "Вы смотрите на свою руку. Спустя милисекунды поиска ваш искуственный помощник показывает вам информацию об этом здании.",
   },
   {
-    img: "url(../../public/com/slide-3.webp)",
-    smallImg: "url(../../public/com/slide-3-cut.webp)",
+    img: "url(/com/slide-3.webp)",
+    smallImg: "url(/com/slide-3-cut.webp)",
     text: "Это Арагорн. Крупнейшная компания в ******** на рынке программных продуктов. Образовалась в 2043 путем слияния Microsoft и Xiaomi. Для более подробной информации нажмите 'Дальше'.",
   }
 ]
