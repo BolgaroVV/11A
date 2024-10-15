@@ -78,6 +78,7 @@ h3 {
   justify-content: space-between;
   width: 100%;
   padding: 20px 0;
+  max-width: 400px;
 }
 
 .day {
