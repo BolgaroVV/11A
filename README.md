@@ -27,3 +27,6 @@ npm run dev
 ```sh
 npm run build
 ```
+
+### URL
+https://11a-class-corner.netlify.app/
